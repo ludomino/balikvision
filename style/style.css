@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
-  font-size: 1em;
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #000000;
 }
 
@@ -43,7 +43,7 @@ header nav {
 header,
 footer {
   background-color: black;
-  padding: 20px 50px;
+  padding: 1% 50px;
 }
 
 .cta {
@@ -81,6 +81,9 @@ nav {
   justify-content: center;
 }
 
+nav img {
+  width: 300px;
+}
 nav a {
   margin-left: 30px;
 }

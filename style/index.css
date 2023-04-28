@@ -1,6 +1,6 @@
 .accueil-photos {
   background-color: black;
-  padding: 80px;
+  padding: 2%;
 }
 
 .accueil-photos h2 {
@@ -12,17 +12,16 @@
 .accueil-photos div {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 1%;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .card-category {
   display: flex;
   background-size: cover;
   background-position: center;
-  height: 450px;
-  border-radius: 5px;
+  height: 500px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 30%;
   align-items: center;
@@ -34,6 +33,7 @@
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
 
 @media screen and (max-width: 996px) {
   .accueil-photos {
